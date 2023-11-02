@@ -57,6 +57,106 @@ hr {
 
 }
 
+/*============Web Portfolio==========*/
+.main__port-container_web {
+    margin-top: 0.8rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio__content_web {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.webport__items{
+    background: wheat;
+    padding: 0.5rem;
+    color: var(--color-bg);
+    border-radius: 0.5rem;
+}
+.web__portimg{
+    margin-top: 0.0rem;
+    margin-bottom: 0.5rem;
+   }
+
+.web__portimg img{
+    border-radius: 0.2rem;
+}
+
+.project__title h3{
+    color: var(--color-orange);
+    text-align: center;
+}
+
+.description__web h4{
+    color: var(--color-orange-variant);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 0.2rem;
+
+}
+
+.description__web p{
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.hr__web{
+    background: var(--color-orange-variant);
+    border-color: var(--color-orange);
+    height: 0.00rem;
+    margin-bottom: 1rem;
+}
+.web__language{
+    display: flex;
+    gap: 0.7rem;
+    justify-content: center;
+}
+.web__icons {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    color: var(--color-orange);
+    font-weight: bolder;
+}
+
+.web__icons h5{
+    color: var(--color-bg);
+}
+
+.lang__web{
+    color: var(--color-orange);
+    text-align: center;
+    font-size: medium;
+}
+
+.hr__webb{
+    border-color: var(--color-orange-variant);
+    border-right: 1px solid var(--color-orange-variant);
+    padding-right: 0.5rem;
+    margin-right: 0.5rem; 
+}
+
+.web__btn{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.but__web{
+    width: 10rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 0.8rem 0rem;
+    color: var(--color-bg);
+    border-color: var(--color-orange);
+}
+
 /*============Audit Portfolio==========*/
 
 .main__port-container {
