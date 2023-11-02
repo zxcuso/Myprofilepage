@@ -1,0 +1,192 @@
+.portfo__he {
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem;
+    justify-content: center;
+    border-top-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+    width: auto;
+    background: rgb(18, 17, 17);
+    overflow: hidden;
+    margin-top: -1px;
+    transition: var(--transition);
+}
+
+.portfo__he:hover {
+    background: var(--color-bg);
+    transition: var(--transition);
+}
+
+.port__head {
+    border: 3px solid rgb(18, 17, 17);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    background: rgb(18, 17, 17);
+    background: var(--color-bg);
+    border-radius: 0.8rem;
+    transition: var(--transition);
+}
+
+.port__head:hover {
+    background: var(--color-bg);
+    transition: var(--transition);
+}
+
+.portfo__buttons {
+    padding: 0.3rem 0.7rem;
+    margin-bottom: -4px;
+    border: 1px solid var(--color-bg);
+    color: wheat;
+    background: rgb(18, 17, 17);
+    border-radius: 0.5rem;
+}
+
+.portfo__buttons:hover {
+    color: var(--color-orange);
+    border: 1px solid var(--color-orange);
+    background: var(--color-bg);
+}
+
+hr {
+    border: 1px solid var(--color-bg);
+    margin-bottom: 0.4rem;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 0.25rem;
+    background: var(--color-bg);
+
+}
+
+/*============Audit Portfolio==========*/
+
+.main__port-container {
+    margin-top: 0.8rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.portfolio__info {
+    display: grid;
+    grid-template-columns: 36% 64%;
+    height: 18vh;
+    width: 99.8%;
+    background: rgb(18, 17, 17);
+    border-radius: 0.7rem;
+    background-image: url(../../ASSETS/bg-texture.png);
+    border: 3px solid transparent;
+    transition: var(--transition);
+
+}
+
+.portfolio__info:hover {
+    background: transparent;
+    border: 3px solid rgb(18, 17, 17);
+    transition: var(--transition);
+    background-image: url(../../ASSETS/bg-texture.png);
+}
+
+.innerdiv1__port {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-orange);
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    margin-right: 0.4rem;
+    background: rgb(18, 17, 17);
+    background-image: url(../../ASSETS/bg-texture.png);
+    font-weight: bolder;
+    font-size: small;
+    letter-spacing: 0.1rem;
+    transition: var(--transition);
+}
+
+.innerdiv1__port:hover {
+    /* border: 1px solid var(--color-orange); */
+    transition: var(--transition);
+}
+
+.innerdiv1__port h3 {
+    color: wheat;
+}
+
+.innerdiv1__port .hfour {
+    color: wheat;
+}
+
+/* .innerdiv1__port .headtwo {
+    border-bottom: 1px solid var(--color-orange-variant);
+} */
+
+.innerdiv2__port .hfour {
+    color: var(--color-orange-variant);
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: -0.7rem;
+    padding-bottom: -0.7rem;
+}
+
+.innerdiv2__port .hfive {
+    color: var(--color-orange);
+}
+
+.innerdiv2__port {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-orange);
+    margin: 0.4rem;
+    padding: 0.4rem;
+    margin-left: 0.1rem;
+    border-radius: 0.6rem;
+    background: var(--color-bg);
+    color: wheat;
+    border: 1px solid var(--color-bg);
+    transition: var(--transition);
+    overflow: hidden;
+    font-size: small;
+}
+
+.innerdiv2__port:hover {
+    border: 1px solid var(--color-orange);
+    transition: var(--transition);
+}
+
+
+/*======MEDIA QUERIES (MEDIUM DEVICES)======*/
+
+@media screen and (max-width: 1024px) {
+    .portfolio__content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*======MEDIA QUERIES (SMALL DEVICES)======*/
+
+@media screen and (max-width: 600px) {
+    .portfolio__content {
+        grid-template-columns: 1fr;
+    }
+
+    .portfo__buttons {
+        padding: 0.3rem 0.6rem;
+    }
+
+    .portfolio__info {
+        height: 20vh;
+    }
+
+    .innerdiv2__port .hfour {
+        font-size: small;
+    }
+
+}

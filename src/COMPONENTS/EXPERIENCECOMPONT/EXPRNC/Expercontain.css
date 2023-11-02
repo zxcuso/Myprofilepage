@@ -1,0 +1,59 @@
+.container__service {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.btn-other {
+    background: black;
+    padding: 0.4rem .6rem;
+}
+
+.contain__exp {
+    margin-top: 0.9rem;
+}
+
+.audit__container {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg);
+    margin-top: -9px;
+    margin-bottom: 0.8rem;
+    transition: var(--transition);
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+
+.audit__container:hover {
+    background: rgb(18, 17, 17);
+    transition: var(--transition);
+}
+
+.audit__container p {
+    font-size: small;
+}
+
+.audit__icon {
+    border: 2px solid darkgreen;
+    color: var(--color-orange);
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 0.8rem;
+    margin-left: 43%;
+}
+
+.consult__icon {
+    border: 2px solid darkgreen;
+    color: var(--color-orange);
+    padding: 7px;
+    border-radius: 50%;
+    margin-top: 0.8rem;
+    margin-left: 43%;
+
+}
+
+.consult__con {
+    margin-bottom: 0.9rem;
+}

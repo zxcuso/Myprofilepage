@@ -1,0 +1,168 @@
+.container__exp {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+
+.btn-other {
+    background: black;
+    /* padding: 0.7rem 0.7rem; */
+    border-color: rgb(30, 28, 28);
+    border-width: 0.1rem;
+    color: wheat;
+    border-radius: 5px;
+    padding-left: 2rem;
+
+}
+
+.contain__exp {
+    margin-top: 0.9rem;
+}
+
+.contain__responsibilit {
+    margin-top: 0.9rem;
+}
+
+.li__content {
+    display: flex;
+    justify-self: start;
+    font-size: smaller;
+    padding: 0.0rem;
+    gap: 3px;
+    /* margin-top: 0.1rem; */
+}
+
+.li__content:hover {
+    background: var(--color-bg);
+}
+
+.mm {
+
+    width: 35%;
+    border-right: 1px solid var(--color-orange);
+
+}
+
+
+.icon__expn {
+    padding: 0.5rem;
+    font-size: small;
+    margin-right: 0.3rem;
+    color: var(--color-orange-variant);
+    /* border: 1px solid green; */
+    height: 15;
+    width: 20;
+    border-radius: 50%;
+}
+
+.ul__content {
+    padding: 0.3rem 0.1rem;
+    background: var(--color-bg);
+    border-radius: 0.2rem;
+    margin-bottom: 0.8rem;
+    margin-top: -0.5rem;
+    transition: var(--transition);
+
+}
+
+.ul__content:hover {
+    background-color: rgb(18, 17, 17);
+    transition: var(--transition);
+}
+
+.ul__content h6 {
+    margin-left: 0.4rem;
+    color: var(--color-orange-variant);
+    font-size: small;
+}
+
+
+
+.span_2 {
+    color: var(--color-orange-variant);
+    margin-left: 0.2rem;
+
+
+}
+
+.list__job {
+    list-style: disc;
+    font-size: small;
+    margin-left: 2rem;
+    text-align: justify;
+    margin-right: 0.2rem;
+}
+
+
+.educ__icon {
+    display: flex;
+    color: wheat;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.educ__icon h6 {
+    margin-top: 0.5rem;
+}
+
+.new__icon {
+    border: 1px solid wheat;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.new__list {
+    display: flex;
+    padding-left: 3rem;
+
+}
+
+.new__list h6 {
+    color: wheat;
+    font-size: small;
+    font-weight: 100;
+}
+
+.inner__icon {
+    margin-top: 0.1rem;
+    color: var(--color-orange);
+}
+
+.list_space {
+    margin-bottom: -0.7rem;
+}
+
+
+/*======MEDIA QUERIES (SMALL DEVICES)======*/
+
+@media screen and (max-width: 600px) {
+    .icon__expn {
+        padding: 0.1rem;
+        font-size: small;
+        margin-right: 0.3rem;
+
+    }
+
+    .li__content {
+        display: flex;
+        justify-self: start;
+        font-size: smaller;
+        padding: 0.0rem;
+        width: auto;
+    }
+
+
+    .mm {
+        width: 40%;
+        padding-right: 0.5rem;
+    }
+
+    .mm2 {
+        width: fit-content;
+        font-size: smaller;
+    }
+
+
+
+}

@@ -1,0 +1,255 @@
+section {
+    height: auto;
+}
+
+#about {
+    padding-top: 2rem;
+    background: var(--color-bg);
+    padding-bottom: 3rem;
+    height: auto;
+}
+
+.header__title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+}
+
+.header__title h5 {
+    color: var(--color-header);
+    font-weight: bolder;
+}
+
+.header__title h1 {
+    color: var(--color-orange-variant);
+}
+
+/*======BUTTONS FOR CHANGING UI UNDER ABOUT=====*/
+.about__button {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+.about__button button {
+    padding: 0.5rem 0.5rem;
+    color: var(--color-orange-variant);
+    border: 1px solid var(--color-orange-variant);
+    background: var(--color-bg);
+    border-radius: 0.5rem;
+}
+
+
+/*==========ABOUT CONTANINER==========*/
+.about__container {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+
+}
+
+/*======PROFESSIONAL COMPONENT=======*/
+.pro__container h5 {
+    color: var(--color-orange);
+    /* margin-left: 6rem; */
+    font-style: italic;
+
+}
+
+.text__container {
+    text-align: justify;
+    border-top: 1px solid var(--color-orange-variant);
+
+}
+
+.grid__con {
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 75% 30%;
+}
+
+.text__container p {
+    text-justify: newspaper;
+    color: var(--color-header);
+    font-size: small;
+    padding-top: 0.3rem;
+}
+
+.hubb__container h5 {
+    color: var(--color-orange-variant);
+    margin-top: 0.6rem;
+    font-style: normal;
+
+}
+
+.hubb__container span {
+
+    margin-left: -5px;
+}
+
+
+.hubb__container li {
+    list-style: disc;
+    margin-left: 3%;
+    color: var(--color-header);
+    font-size: small;
+    padding-top: 0.3rem;
+    margin-bottom: -2px;
+}
+
+.licore li {
+    color: var(--color-orange);
+
+}
+
+.list__container {
+    margin-top: 0.5rem;
+    color: var(--color-orange-variant);
+    font-size: small;
+}
+
+.list__container span {
+    color: var(--color-orange);
+    padding-left: 1rem;
+}
+
+/*==========ABOUT IMAGE===========*/
+
+.about__me {
+    width: 75%;
+    aspect-ratio: 1/1;
+    border-radius: 2.2rem;
+    background: linear-gradient(50deg, transparent, var(--color-orange-variant), transparent);
+    background: rgb(18, 17, 17);
+    display: grid;
+    place-items: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border: 2px solid var(--color-orange);
+}
+
+
+.about__me-image {
+    border-radius: 2.2rem;
+    overflow: hidden;
+    transform: rotate(9deg);
+    transition: var(--transition);
+    border: 1px solid var(--color-orange-variant);
+    transition: var(--transition);
+}
+
+.about__me-image:hover {
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+
+
+.about__me2 {
+    display: none;
+}
+
+
+
+
+/*======MEDIA QUERIES (MEDIUM DEVICES)======*/
+
+@media screen and (max-width: 1024px) {
+
+    .pro__container {
+        height: auto;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .about__container {
+        grid-template-columns: 1fr;
+        /* margin-bottom: 5rem; */
+    }
+
+    .about__me {
+        display: none;
+    }
+
+    .about__me2 {
+        display: contents;
+        width: 50%;
+        aspect-ratio: 1/1;
+        border-radius: 2.2rem;
+        background: linear-gradient(45deg, transparent, var(--color-orange-variant), transparent);
+        display: grid;
+        place-items: center;
+        margin-right: 5rem;
+        margin-top: 2rem;
+        margin-bottom: -1rem;
+        border: 1px solid var(--color-orange);
+        justify-self: center;
+    }
+
+    .about__button {
+        justify-content: center;
+    }
+
+    .pro__container h5 {
+        margin-left: 16rem;
+    }
+
+    .hubb__container h5 {
+        margin-left: 0px;
+    }
+
+    section {
+        height: auto;
+
+
+    }
+}
+
+
+/*======MEDIA QUERIES (SMALL DEVICES)======*/
+
+@media screen and (max-width: 600px) {
+
+    .pro__container {
+        height: auto;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .about__me2 {
+        /* margin-left: 0rem; */
+        width: 58%;
+        justify-items: center;
+        margin-bottom: -2rem;
+
+    }
+
+    /* .about__container {
+        margin-left: 0rem;
+    } */
+
+    .pro__container h5 {
+        margin-left: 0rem;
+    }
+
+    .about__details {
+        width: auto;
+    }
+
+    .grid__con {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        height: auto;
+        width: fit-content;
+        padding-bottom: 2rem;
+
+
+    }
+}
