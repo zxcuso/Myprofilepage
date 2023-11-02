@@ -74,6 +74,13 @@ hr {
     padding: 0.5rem;
     color: var(--color-bg);
     border-radius: 0.5rem;
+    border: 2px solid transparent;
+    transition: var(--transition);
+}
+
+.webport__items:hover{
+    border: 2px solid var(--color-orange);
+    transition: var(--transition);
 }
 .web__portimg{
     margin-top: 0.0rem;
@@ -136,7 +143,7 @@ hr {
 
 .hr__webb{
     border-color: var(--color-orange-variant);
-    border-right: 1px solid var(--color-orange-variant);
+    border-right: 2px solid var(--color-orange-variant);
     padding-right: 0.5rem;
     margin-right: 0.5rem; 
 }
@@ -276,7 +283,9 @@ hr {
     .portfolio__content {
         grid-template-columns: 1fr;
     }
-
+    .portfolio__content_web {
+        grid-template-columns: 1fr;
+    }
     .portfo__buttons {
         padding: 0.3rem 0.6rem;
     }
