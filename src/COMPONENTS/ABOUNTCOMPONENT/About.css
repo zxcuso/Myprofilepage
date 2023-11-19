@@ -191,6 +191,9 @@ section {
         border: 2px solid rgb(30, 28, 28);
         justify-self: center;
     }
+    .about__me-image {
+        transform: rotate(0deg);
+    }
 
     .about__button {
         justify-content: center;

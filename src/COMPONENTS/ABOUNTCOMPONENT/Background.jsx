@@ -16,7 +16,7 @@ const Background = () => {
                 <ul>
                     <li>Nationality: <span>Nigeria.</span></li>
                     <li>State of Origin: <span>Edo State.</span></li>
-                    <li>Date of Birth: <span>December 20th, 1993.</span></li>
+                    <li>Date of Birth: <span>December 20th.</span></li>
                 </ul>
             </div>
 
