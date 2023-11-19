@@ -7,7 +7,7 @@ import { GrInstagram } from 'react-icons/gr'
 
 const FooterSocials = () => {
     return (
-        <div className='social__con'>
+        <div >
             {/* <h5 className='hidee'>visit me on...</h5> */}
             <div className='header__socials'>
                 <a href="https://linkedin.com" target='_blank' rel='noopener noreferrer'><div className='my-iconsocial mj'><BsLinkedin /></div></a>
