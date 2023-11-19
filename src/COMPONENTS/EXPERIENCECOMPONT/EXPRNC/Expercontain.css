@@ -25,6 +25,27 @@
     padding-bottom: 0.2rem;
 }
 
+.audit__container h3{
+    color: var(--color-orange-variant);
+    font-size:small;
+    margin-top: 3px;
+    font-weight: bolder;
+}
+
+.audit__background__img{
+    /* height: 5rem; */
+    margin-top: 3px;
+    margin-bottom: 4px;
+    background-image: url(../../../ASSETS/IMG_20231104_112848.jpg);
+
+}
+.audit__background__imgc{
+    /* height: 5rem; */
+    margin-top: 3px;
+    margin-bottom: 4px;
+    background-image: url(../../../ASSETS/IMG_20231104_112848.jpg);
+
+}
 
 .audit__container:hover {
     background: rgb(18, 17, 17);
@@ -36,12 +57,13 @@
 }
 
 .audit__icon {
-    border: 2px solid darkgreen;
-    color: var(--color-orange);
+    border: 3px solid var(--color-bg);
+    color: var(--color-bg);
     padding: 5px;
     border-radius: 50%;
     margin-top: 0.8rem;
-    margin-left: 43%;
+    margin-left: 45%;
+    
 }
 
 .consult__icon {
@@ -56,4 +78,16 @@
 
 .consult__con {
     margin-bottom: 0.9rem;
+}
+
+/*======MEDIA QUERIES (SMALL DEVICES)======*/
+
+@media screen and (max-width: 600px) {
+
+    .audit__icon {
+       
+        margin-left: 44%;
+        
+    }
+    
 }

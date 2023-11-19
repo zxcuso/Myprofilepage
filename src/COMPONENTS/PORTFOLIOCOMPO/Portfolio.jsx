@@ -5,7 +5,7 @@ import PortfolioContainer from './PortfolioContainer';
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <div className="head__title">
+            <div className="head__title spec">
                 <h1>My Portfolio</h1>
             </div>
 

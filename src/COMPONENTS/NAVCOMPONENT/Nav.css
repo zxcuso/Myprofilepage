@@ -5,14 +5,17 @@ nav {
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    left: 50%;
+    left: 98%;
     transform: translateX(-50%);
-    bottom: 3rem;
+    bottom: 10rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 1rem;
-    backdrop-filter: blur(4px);
-    border: 0.5px solid var(--color-orange-variant);
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    border: 2px solid rgb(18, 17, 17);
 }
 
 nav a {
@@ -37,7 +40,7 @@ nav a:hover {
 
 
 nav a.active {
-    background: rgb(143, 94, 2);
+    background: var(--color-text);
     color: var(--color-bg);
     border-color: var(--color-bg);
 

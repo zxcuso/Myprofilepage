@@ -8,7 +8,7 @@ import { GrInstagram } from 'react-icons/gr'
 const HeaderSocials = () => {
     return (
         <div>
-            <h5>visit me on...</h5>
+            <h5 className='hi'>visit me on...</h5>
             <div className='header__socials'>
                 <a href="https://linkedin.com" target='_blank' rel='noopener noreferrer'><div className='my-iconsocial'><BsLinkedin /></div></a>
                 <a href="https://github.com" target='_blank' rel='noopener noreferrer'><div className='my-iconsocial'><BsGithub /></div></a>

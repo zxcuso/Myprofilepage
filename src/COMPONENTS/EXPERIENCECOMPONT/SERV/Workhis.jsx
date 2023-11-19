@@ -13,7 +13,7 @@ const Workhis = () => {
                 <ul className='ul__content'>
                     <li className='li__content'>
                         <div className='mm'><span className='icon__expn'><BsBank /></span >Company</div>
-                        <div className='mm2'><span className='span_2'>UF Idiagi & Co (Chartered Accountants)</span></div>
+                        <div className='mm2'><span className='span_2'>UF Idiagi & Co (Accounting Firm)</span></div>
                     </li>
 
                     <li className='li__content'>
@@ -58,7 +58,7 @@ const Workhis = () => {
                 <ul className='ul__content'>
                     <li className='li__content'>
                         <div className='mm'><span className='icon__expn'><BsBank /></span>Company  </div>
-                        <div className='mm2'><span className='span_2'>UF Idiagi & Co (Chartered Accountants)</span> </div>
+                        <div className='mm2'><span className='span_2'>UF Idiagi & Co (Accounting Firm)</span> </div>
                     </li>
 
                     <li className='li__content'>

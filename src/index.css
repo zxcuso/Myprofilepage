@@ -16,6 +16,7 @@
     --color-header: wheat;
     --color-orange: rgb(215, 60, 4);
     --color-orange-variant: rgb(9, 161, 161);
+    --color-text:rgb(202, 213, 174);
 
 
 
@@ -31,10 +32,10 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-bg); 
     color: var(--color-white);
     line-height: 1.7;
-    background-image: var(--bg-img);
+    /* background-image: var(--bg-img); */
 
 }
 
@@ -109,7 +110,7 @@ html {
     margin-top: 0.5rem;
     padding: 0.5rem;
     padding-left: 0.5rem;
-    border-radius: 0.9rem;
+    border-radius: 0.6rem;
     background: rgb(18, 17, 17);
     transition: var(--transition);
     height: auto;
@@ -157,6 +158,7 @@ html {
 
     .experience__section {
         margin-bottom: 1rem;
+        width: fit-content;
     }
 
 

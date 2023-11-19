@@ -28,9 +28,9 @@ const Header = () => {
 
                 </div>
                 <div className='scroll__container'>
-                    <a href="#contact" ><BiSolidDownArrow size={19} className='scroll__down' /> </a>
-                    <a href="#contact" ><BiDownArrow size={18} className='scroll__down' /> </a>
-                    <a href="#contact" ><BiDownArrow className='scroll__down' /></a>
+                    <a href="#foot" ><BiSolidDownArrow size={19} className='scroll__down' /> </a>
+                    <a href="#foot" ><BiDownArrow size={18} className='scroll__down' /> </a>
+                    <a href="#foot" ><BiDownArrow className='scroll__down' /></a>
                 </div>
             </div>
         </header>

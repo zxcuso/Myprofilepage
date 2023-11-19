@@ -11,7 +11,7 @@ const Quali = () => {
 
                 <ul className='ul__content' >
                     <div className='educ__icon'>
-                        <FaUserGraduate size={32} className='new__icon' />
+                        <FaUserGraduate size={32} color='#F0DB4F' className='new__icon' />
                         <h6>  Educational Qualification :</h6>
                     </div>
                     <li className='new__list'>
@@ -27,7 +27,7 @@ const Quali = () => {
 
                 <ul className='ul__content' >
                     <div className='educ__icon'>
-                        <FaUserGraduate size={32} className='new__icon' />
+                        <FaUserGraduate size={32} color='#F0DB4F' className='new__icon' />
                         <h6>  Professional Qualification :</h6>
                     </div>
                     <li className='new__list'>
@@ -35,7 +35,7 @@ const Quali = () => {
                         <h6>Institute of Chartered Accountants of Nigeria (ICAN), 2020.</h6>
                     </li>
                     <li className='new__list'>
-                        <MdGrade size={20} className='inner__icon' />
+                        <MdGrade size={18} className='inner__icon' />
                         <h6>Higher Diploma in Python Programming Language - Dialogue Academy, 2021</h6>
                     </li>
 

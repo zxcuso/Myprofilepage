@@ -37,14 +37,14 @@ header {
 }
 
 .my-iconsocial {
-    color: var(--color-orange);
+    color: var(--color-text);
     font-size: 18px;
     background: var(--color-bg);
     padding-right: 11px;
     padding-left: 10px;
     padding-top: 6px;
     border-radius: 50%;
-    border: 1px solid var(--color-orange);
+    border: 1px solid var(--color-orange-variant);
     transition: var(--transition);
 
 }
@@ -66,9 +66,9 @@ header {
     position: absolute;
     left: -7.5rem;
     bottom: 6.5rem;
-
-
 }
+
+
 
 .scroll__down {
     color: var(--color-orange);
@@ -131,6 +131,10 @@ header {
 
 }
 
+h5{
+    color: var(--color-text);
+}
+
 .my-iconr {
     margin-left: 5px;
 }
@@ -144,6 +148,11 @@ small {
 
 h3 {
     color: var(--color-white);
+    
+}
+
+.header__detailcontainer h4, p{
+    color: var(--color-text);
 }
 
 

@@ -1,0 +1,256 @@
+
+footer{
+    background: var(--color-text);
+    /* height: 45vh; */
+    height: 65vh;
+}
+
+footer p{
+    color: black;
+}
+
+.footer__container {
+    width: 85%;
+    margin: 0 auto;
+}
+.footer__title{
+    padding-top: 0.9rem;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.footer__title p{
+    color: var(--color-bg);
+    font-weight: bolder;
+    font-size:larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.5rem;
+}
+
+.focontent{
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+   
+}
+.focontent h3{
+ color: green;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button__footer{
+    padding: .4rem;
+    background: rgb(18, 17, 17);
+    background-color: rgba(18, 17, 17, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid transparent; 
+    transition: var(--transition);
+    /* color: aqua; */
+    border-radius: 5px;
+   
+}
+.button__footer:hover{
+    background: transparent;
+    /* border: 1px solid rgb(18, 17, 17); */
+    transition: var(--transition);
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    align-items: center;
+    width: 100%;
+    gap: 0.3rem;
+   
+}
+
+
+/*====Social Icon====*/
+.header__socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    /* margin-bottom: 2rem; */
+}
+
+
+
+.hidee{
+    display: none;
+    color: red;
+}
+
+.mm {
+    padding: 0;
+    margin: 0;
+}
+
+.mj {
+    color: var(--color-text);
+    font-size: 18px;
+    background: var(--color-bg);
+    padding-right: 11px;
+    padding-left: 10px;
+    padding-top: 6px;
+    border-radius: 50%;
+    border: 1px solid var(--color-orange);
+    transition: var(--transition);
+  
+
+}
+
+.my-iconsocial:hover {
+    border-color: var(--color-orange-variant);
+    color: var(--color-orange-variant);
+    transform: translateY(-3px);
+    transition: var(--transition);
+}
+
+
+
+.footcont{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footservices{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-left: 18%;
+    gap: 2rem;
+    align-items: center;
+    /* justify-items: center; */
+    /* margin-bottom: 1rem; */
+}
+.inner__footer{
+    background-color: rgba(18, 17, 17, 1);
+    padding: 0.5rem;
+    /* border: 1px solid var(--color-bg); */
+    padding-left: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    /* justify-self: center; */
+    backdrop-filter: blur(15px);
+    transition: var(--transition);
+    border: 1px solid transparent;
+   
+}
+
+
+.inner__footer:hover{
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.inner__footer h3{
+    color : rgb(215, 60, 4);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.ter{
+    list-style:disc;
+    margin-left: 1rem;
+    color: darkgreen;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inner__footer li{
+    margin-bottom: 0.5rem;
+    color: darkgreen;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.scroll__footer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    margin-top: -7rem;
+    margin-left: -3rem;
+    padding: 1rem;
+    background: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    transition: var(--transition);
+   
+}
+
+.scroll__footer:hover{
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.9);
+    transition: var(--transition);
+}
+
+
+.scroll__up {
+    color: var(--color-orange);
+    transition: var(--transition);
+    transition: var(--transition);
+}
+
+.buu{
+    margin-left: -3px;
+}
+
+.scroll__up:hover {
+    color: var(--color-orange-variant);
+    transition: var(--transition);
+    transform: translateY(-3px);
+    transition: var(--transition);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .focontent{
+       
+        grid-template-columns: 1fr ;
+       
+    }
+    .footservices{
+        grid-template-columns: 1fr;
+        margin-left: 0%;
+    }
+    footer{
+    
+        height: 100vh;
+    }
+    .scroll__footer {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .focontent{
+       
+        grid-template-columns: 1fr;
+       
+    }
+    .footservices{
+        grid-template-columns: 1fr;
+        margin-left: 0%;
+        gap: 0.6rem;
+    }
+
+    .scroll__footer {
+        display: none;
+    }
+
+    
+footer{
+    
+    height: 106vh;
+}
+}

@@ -3,13 +3,7 @@
     gap: 1rem;
     padding: 0.6rem;
     justify-content: center;
-    border-top-right-radius: 0.6rem;
-    border-top-left-radius: 0.6rem;
     width: auto;
-    background: rgb(18, 17, 17);
-    overflow: hidden;
-    margin-top: -1px;
-    transition: var(--transition);
 }
 
 .portfo__he:hover {
@@ -18,33 +12,35 @@
 }
 
 .port__head {
-    border: 3px solid rgb(18, 17, 17);
+    /* border: 3px solid rgb(18, 17, 17); */
     margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
     background: rgb(18, 17, 17);
     background: var(--color-bg);
     border-radius: 0.8rem;
     transition: var(--transition);
 }
 
-.port__head:hover {
-    background: var(--color-bg);
-    transition: var(--transition);
+.spec{
+    margin-top: 2rem;
 }
 
+
 .portfo__buttons {
-    padding: 0.3rem 0.7rem;
-    margin-bottom: -4px;
+    padding: 0.5rem 0.7rem;
     border: 1px solid var(--color-bg);
     color: wheat;
     background: rgb(18, 17, 17);
     border-radius: 0.5rem;
+    width: 15rem;
+    transition: var(--transition);
 }
 
 .portfo__buttons:hover {
     color: var(--color-orange);
     border: 1px solid var(--color-orange);
     background: var(--color-bg);
+    transition: var(--transition);
 }
 
 hr {
@@ -56,60 +52,252 @@ hr {
     background: var(--color-bg);
 
 }
-
-/*============Web Portfolio==========*/
-.main__port-container_web {
-    margin-top: 0.8rem;
+/*============ Portfolio==========*/
+/*============Audit Portfolio==========*/
+.main__port-container_audit{
+    margin-top: 0.0srem;
     margin-bottom: 3rem;
 }
 
-.portfolio__content_web {
+.audit__coy h3{
+    color: #264de4;
+    font-weight: bolder;
+}
+/* .portfolio__content_audit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+} */
+.audit__background{
+    height: 30vh;
+    width: 100%;
+    background: rgb(18, 17, 17);
+    background-image: url(../../ASSETS/company-3.jpg);
+    color: black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+
+.audit__background:hover{
+   transition: var(--transition);
+}
+
+.audit__content{
+    background: transparent;
+    position: relative;
+    height: inherit;
+    backdrop-filter: blur(3.5px);
+    /* z-index: 2; */
+    border-radius: 0.3rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.team__p{
+    color: var(--color-orange);
+}
+
+.iconteam{
+    color: red;
+    border: 2px solid var(--color-orange);
+    padding: 0.2rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+
+    
+}
+
+
+.audit__content:hover{
+    backdrop-filter: blur(0px);
+    transition: var(--transition);
+    
+}
+
+.team__lead{
+    display: flex;
+    gap: 0.8rem;
+    justify-content:center ;
+    margin-top: 0.8rem;
+}
+.audit__coy{
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.audit__skill{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    
+}
+.audit__tools{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-right: 2px solid var(--color-orange);
+}
+
+.audit__role h4{
+    color: var(--color-orange);
+    font-size: 18px;
+}
+
+.audit__tools h4{
+    color: var(--color-orange);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.audittools__content ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+    line-height: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+
+.audit__role{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.audit__period p{
+    color: var(--color-bg);
+}
+
+span.swiper-pagination-bullet {
+    
+    background: wheat;
+    color: green;
+    font-size:larger;
+}
+
+
+div.swiper-pagination.swiper-pagination-clickable{
+    bottom: 17rem;
+    position:static;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    font-size:larger; 
+  
+}
+div.swiper-button-next{
+    color: var(--color-orange-variant);
+    font-weight: bolder;
+}
+
+div.swiper-button-prev{
+    color: var(--color-orange-variant);
+    font-weight: bolder;
+}
+
+/* .swiper-slide {
+    transition: transform 5s ease;
+} 
+
+.swiper-container:hover .swiper-slide {
+    transition: transform 10s ease;
+    transform: translateX(10px);
+} */
+
+
+
+/*============Web Portfolio==========*/
+.main__port-container_web {
+    margin-top: 0.0rem;
+    margin-bottom: 3rem;
+   
+}
+
+/* .portfolio__content_web {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5rem;
-}
+} */
 
 .webport__items{
-    background: wheat;
-    padding: 0.5rem;
+    background: rgb(18, 17, 17);
+    padding-top: 0.5rem;
     color: var(--color-bg);
-    border-radius: 0.5rem;
-    border: 2px solid transparent;
+    border-radius: 0.3rem;
+    border: 3px solid transparent;
     transition: var(--transition);
+    
+    
+  
 }
 
 .webport__items:hover{
-    border: 2px solid var(--color-orange);
+    background: transparent;
+    border: 3px solid rgb(18, 17, 17);
     transition: var(--transition);
+    
 }
 .web__portimg{
     margin-top: 0.0rem;
     margin-bottom: 0.5rem;
-   }
+   
+   
+}
 
 .web__portimg img{
-    border-radius: 0.2rem;
+    /* border-radius: 0.2rem; */
+    height: 15rem;
+    border-bottom-left-radius:0.6rem ;
+    border-bottom-right-radius: 0.6rem;
+
 }
 
-.project__title h3{
+
+.project__title p{
     color: var(--color-orange);
     text-align: center;
+    font-weight: bolder;
+    padding-left: 0.7rem;
+    /* height: 7rem; */
+    /* padding-bottom: 3rem; */
 }
 
-.description__web h4{
+.description__web h5{
     color: var(--color-orange-variant);
-    text-align: center;
-    font-size: 16px;
-    font-weight: bolder;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--color-bg);
+    width: fit-content;
+    padding: 0rem 0.3rem;
+    margin-left: 0.7rem;
 
 }
 
 .description__web p{
-    text-align: justify;
-    line-height: 20px;
-    font-size: 14px;
+    text-align: start;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: lighter;
     margin-bottom: 0.5rem;
+    color: rgb(202, 213, 174);
+    border-bottom: 3px solid black;
+    padding-bottom: 1rem;
+    height: 20vh;
 }
 
 .hr__web{
@@ -129,16 +317,18 @@ hr {
     margin-bottom: 0.8rem;
     color: var(--color-orange);
     font-weight: bolder;
+    
 }
 
 .web__icons h5{
-    color: var(--color-bg);
+    color: rgb(202, 213, 174);
 }
 
 .lang__web{
-    color: var(--color-orange);
+    color: var(--color-orange-variant);
     text-align: center;
     font-size: medium;
+    margin-top: 0.4rem;
 }
 
 .hr__webb{
@@ -149,123 +339,25 @@ hr {
 }
 
 .web__btn{
-    margin-top: 1.5rem;
+    margin-top: 0.7rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
+    gap: 0.8rem;
 }
 
 .but__web{
     width: 10rem;
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     text-align: center;
-    padding: 0.8rem 0rem;
-    color: var(--color-bg);
-    border-color: var(--color-orange);
+    padding: 0.3rem 0rem;
+    color: rgb(202, 213, 174);
+    border-color: rgb(202, 213, 174);
+    font-weight: lighter;
 }
 
 /*============Audit Portfolio==========*/
 
-.main__port-container {
-    margin-top: 0.8rem;
-    margin-bottom: 3rem;
-}
-
-.portfolio__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.5rem;
-}
-
-.portfolio__info {
-    display: grid;
-    grid-template-columns: 36% 64%;
-    height: 18vh;
-    width: 99.8%;
-    background: rgb(18, 17, 17);
-    border-radius: 0.7rem;
-    background-image: url(../../ASSETS/bg-texture.png);
-    border: 3px solid transparent;
-    transition: var(--transition);
-
-}
-
-.portfolio__info:hover {
-    background: transparent;
-    border: 3px solid rgb(18, 17, 17);
-    transition: var(--transition);
-    background-image: url(../../ASSETS/bg-texture.png);
-}
-
-.innerdiv1__port {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background: var(--color-orange);
-    margin: 0.4rem;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
-    margin-right: 0.4rem;
-    background: rgb(18, 17, 17);
-    background-image: url(../../ASSETS/bg-texture.png);
-    font-weight: bolder;
-    font-size: small;
-    letter-spacing: 0.1rem;
-    transition: var(--transition);
-}
-
-.innerdiv1__port:hover {
-    /* border: 1px solid var(--color-orange); */
-    transition: var(--transition);
-}
-
-.innerdiv1__port h3 {
-    color: wheat;
-}
-
-.innerdiv1__port .hfour {
-    color: wheat;
-}
-
-/* .innerdiv1__port .headtwo {
-    border-bottom: 1px solid var(--color-orange-variant);
-} */
-
-.innerdiv2__port .hfour {
-    color: var(--color-orange-variant);
-    font-weight: normal;
-    font-size: 13px;
-    margin-bottom: -0.7rem;
-    padding-bottom: -0.7rem;
-}
-
-.innerdiv2__port .hfive {
-    color: var(--color-orange);
-}
-
-.innerdiv2__port {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background: var(--color-orange);
-    margin: 0.4rem;
-    padding: 0.4rem;
-    margin-left: 0.1rem;
-    border-radius: 0.6rem;
-    background: var(--color-bg);
-    color: wheat;
-    border: 1px solid var(--color-bg);
-    transition: var(--transition);
-    overflow: hidden;
-    font-size: small;
-}
-
-.innerdiv2__port:hover {
-    border: 1px solid var(--color-orange);
-    transition: var(--transition);
-}
 
 
 /*======MEDIA QUERIES (MEDIUM DEVICES)======*/
@@ -280,9 +372,7 @@ hr {
 /*======MEDIA QUERIES (SMALL DEVICES)======*/
 
 @media screen and (max-width: 600px) {
-    .portfolio__content {
-        grid-template-columns: 1fr;
-    }
+    
     .portfolio__content_web {
         grid-template-columns: 1fr;
     }
@@ -297,5 +387,7 @@ hr {
     .innerdiv2__port .hfour {
         font-size: small;
     }
-
+    .webport__items{
+      margin-left: -0.5rem; 
+    }
 }
